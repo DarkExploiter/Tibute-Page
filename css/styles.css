@@ -2,6 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto&display=swap');
+
+a {
+    color: #ffd;
+}
+
+
+
 /* Header */
 
 h1 {
@@ -14,11 +21,13 @@ h1 {
 
 
 body {
+    padding: 3.5rem;
     text-align: center;
     background: url('https://www.thesun.co.uk/wp-content/uploads/2017/07/nintchdbpict000339898737.jpg?w=620');
     background-size: cover;
     color: #ffd;
     font-family: 'Roboto';
+    font-size: 0.8rem;
 }
 
 div .layer {
@@ -26,18 +35,61 @@ div .layer {
     margin: 0 auto;
     width: 75vmax;
     height: max-content;
-    padding: 0 5%;
-    background-color: rgba(50, 50, 50, 0.6)
+    padding: 0 5% 3% 5%;
+    background-color: rgba(50, 50, 50, 0.)
 }
 
 .image {
-    width: 50%;
-    height: 40%;
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    max-width: 50%;
     border-radius: 50%;
     border: 2px solid #ffd;
-    /* box-shadow: 2px 2px 2px 1px rgba(150, 150, 150, .8); */
+    margin: 3rem 3rem 1rem 3rem;
 }
-
+.image {
+    display: block;
+}
 img:hover {
     bottom: 50px;
+}
+
+.title {
+    margin: 1rem auto;
+    width: 50%;
+    padding-bottom: 1.5rem;
+}
+
+/* Content */
+
+.about {
+    width: 75%;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style: none;
+}
+
+.hov {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 596px) {
+    h1 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.cover {
+    height: max-content;
+    background: rgba(50,50,50,.8)
 }
