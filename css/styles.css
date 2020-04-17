@@ -1,0 +1,43 @@
+/* Globals and imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto&display=swap');
+/* Header */
+
+h1 {
+    padding: 30px;
+    font-size: 3rem;
+    color: #ffd;
+    font-family: 'Marck Script', cursive;
+    font-weight: normal;
+}
+
+
+body {
+    text-align: center;
+    background: url('https://www.thesun.co.uk/wp-content/uploads/2017/07/nintchdbpict000339898737.jpg?w=620');
+    background-size: cover;
+    color: #ffd;
+    font-family: 'Roboto';
+}
+
+div .layer {
+    border: 1px solid #fff;
+    margin: 0 auto;
+    width: 75vmax;
+    height: max-content;
+    padding: 0 5%;
+    background-color: rgba(50, 50, 50, 0.6)
+}
+
+.image {
+    width: 50%;
+    height: 40%;
+    border-radius: 50%;
+    border: 2px solid #ffd;
+    /* box-shadow: 2px 2px 2px 1px rgba(150, 150, 150, .8); */
+}
+
+img:hover {
+    bottom: 50px;
+}
