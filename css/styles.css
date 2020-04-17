@@ -36,7 +36,7 @@ div .layer {
     width: 75vmax;
     height: max-content;
     padding: 0 5% 3% 5%;
-    background-color: rgba(50, 50, 50, 0.)
+    background-color: rgba(50, 50, 50, .6)
 }
 
 .image {
@@ -49,9 +49,11 @@ div .layer {
     border: 2px solid #ffd;
     margin: 3rem 3rem 1rem 3rem;
 }
+
 .image {
     display: block;
 }
+
 img:hover {
     bottom: 50px;
 }
@@ -77,19 +79,8 @@ ul li {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 596px) {
-    h1 {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width:1200px) {
-    h1 {
-        font-size: 1.5rem;
-    }
-}
 
 .cover {
     height: max-content;
-    background: rgba(50,50,50,.8)
+    background: rgba(50, 50, 50, .8);
 }
